@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Application secrets and generated files
+providers.enc
+settings.json
+auth.json
+config.toml
+
 # C extensions
 *.so
 
@@ -216,3 +222,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Auto-generated agent rules (personalized per developer)
+.brainsync/agent-rules.md
+
+# Auto-generated AI agent exclusions
+.cursorrules
+.clineRules
+.agent/
+.windsurfrules
+.gemini/
+.cline/
+.agents/
+
+AGENT.md
+CLAUDE.md
+.agent-mem/
+/.brainsync
+.mcp.json
+/.vscode
